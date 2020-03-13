@@ -13,12 +13,13 @@
  limitations under the License.
 */
 
-import {debounce} from 'lodash-es';
-import {Observable} from 'rxjs';
+// import {debounce} from 'lodash-es';
+// import {Observable} from 'rxjs';
 
 
 export function AsyncComponent() {
   // In a real app you'd actually use these dependencies...
-  this.debounce = debounce;
-  this.Observable = Observable;
+  // this.debounce = debounce;
+  // this.Observable = Observable;
+  console.log('ciao')
 }
